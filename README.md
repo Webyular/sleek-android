@@ -25,7 +25,8 @@ Before running the app, make sure you have the following installed:
 
 **Clone or extract the project**
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Webyular/sleek-android.gi
+t
 ```
 or download and extract the `.zip` file into your preferred workspace folder.
 
@@ -53,7 +54,7 @@ the app uses a **mock API** hosted on Beeceptor for testing.
 #### Beeceptor Configuration
 Base URL (inside `NetworkModule.kt`):
 ```kotlin
-private const val BASE_URL = "https://nit3213-footcray.free.beeceptor.com/"
+private const val BASE_URL = "https://nit3213-web.free.beeceptor.com/"
 ```
 
 Beeceptor endpoints:
